@@ -79,8 +79,12 @@ function ResourceDetails(props: { index: number; resource: Resource }) {
         <canvas
           className="border-2 border-black"
           ref={canvasRef}
-          width={100}
-          height={100}
+          width={40}
+          height={40}
+          style={{
+            width: 120,
+            height: 120,
+          }}
         />
 
         <div className="text-sm">
